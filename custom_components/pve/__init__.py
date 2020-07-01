@@ -26,7 +26,7 @@ CONF_NODE = "node"
 CONF_NODES = "nodes"
 CONF_VMS = "vms"
 CONF_CONTAINERS = "containers"
-CONF_STORAGE = "storage" # Added
+CONF_STORAGE = "storage"
 
 DEFAULT_PORT = 8006
 DEFAULT_REALM = "pam"
@@ -59,7 +59,6 @@ CONFIG_SCHEMA = vol.Schema(
                                         vol.Optional(CONF_CONTAINERS, default=[]): [
                                             cv.positive_int
                                         ],
-                                        # Add storage
                                         vol.Optional(CONF_STORAGE, default=[]): [
                                             cv.string
                                         ],
@@ -125,7 +124,7 @@ class ProxmoxItemType(Enum):
 
     qemu = 0
     lxc = 1
-    storage = 2 # new
+    storage = 2
 
 
 class ProxmoxClient:
