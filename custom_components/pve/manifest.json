@@ -1,0 +1,7 @@
+{
+  "domain": "pve",
+  "name": "Proxmox VE Custom Component",
+  "documentation": "https://github.com/libots/ha-pve",
+  "codeowners": ["@libots"],
+  "requirements": ["proxmoxer==1.1.1"]
+}
