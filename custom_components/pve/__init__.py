@@ -19,7 +19,7 @@ import homeassistant.helpers.config_validation as cv
 _LOGGER = logging.getLogger(__name__)
 
 
-DOMAIN = "proxmoxve_dev"
+DOMAIN = "pve"
 PROXMOX_CLIENTS = "proxmox_clients"
 CONF_REALM = "realm"
 CONF_NODE = "node"
