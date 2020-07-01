@@ -79,7 +79,7 @@ nodes:
 Example with multiple VMs and no containers:
 
 ```yaml
-proxmoxve:
+pve:
   - host: IP_ADDRESS
     username: USERNAME
     password: PASSWORD
