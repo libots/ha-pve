@@ -6,7 +6,7 @@ from homeassistant.const import ATTR_ATTRIBUTION, CONF_HOST, CONF_PORT
 
 from . import CONF_CONTAINERS, CONF_NODES, CONF_VMS, PROXMOX_CLIENTS, ProxmoxItemType
 
-ATTRIBUTION = "Data provided by Proxmox VE Dev"
+ATTRIBUTION = "Data provided by PVE"
 _LOGGER = logging.getLogger(__name__)
 
 
