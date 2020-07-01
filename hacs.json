@@ -1,6 +1,7 @@
 {
     "name": "Proxmox VE Custom Component",
     "domains": [
+        "binary_sensor",
         "sensor"
     ],
     "iot_class": "Local Polling",
